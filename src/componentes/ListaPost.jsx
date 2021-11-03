@@ -10,7 +10,7 @@ const [posts, setPosts] = useState([])
 
 useEffect(() => {
   busca(url, setPosts)
-}, [])
+}, [url])
 
   return(
     <section className="posts container">
